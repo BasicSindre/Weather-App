@@ -140,7 +140,7 @@ img {
     }
     
 }
-@media only screen and (orientation: landscape) {
+@media only screen and (max-width: 600px, orientation: landscape) {
     .header {
         display: flex;
         height: 20svh;
